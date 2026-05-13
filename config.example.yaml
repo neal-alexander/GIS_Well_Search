@@ -1,0 +1,13 @@
+db:
+  host: "your-db-host"
+  port: 5444
+  database: "your-database"
+  user: "your-username"
+  password: "your-password"
+
+search_parameters:
+  radius_meters: 2000
+
+surfactant_uwis:
+  - "100012104009W500"
+  # Add your surfactant UWIs here

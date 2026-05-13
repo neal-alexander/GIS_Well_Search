@@ -1,0 +1,3 @@
+SELECT uwi, gsl_uwi, survey_id, "source", depth_obs_no, active_ind, azimuth, azimuth_ouom, dog_leg_severity, effective_date, ew_direction, expiry_date, inclination, inclination_ouom, latitude, longitude, ns_direction, point_type, ppdm_guid, remark, station_id, station_md, station_md_ouom, station_tvd, station_tvd_ouom, vertical_section, vertical_section_ouom, x_offset, x_offset_ouom, y_offset, y_offset_ouom, row_changed_by, row_changed_date, row_created_by, row_created_date, row_quality, create_date, create_user, last_modified_date, last_modified_user
+FROM gdc.well_dir_srvy_station
+WHERE "uwi" = '100121706120W500'; -- Replace with your specific UWI
